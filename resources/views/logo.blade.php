@@ -7,9 +7,7 @@
 	
 	<body>
 		<img src="/images/logo.jpg" alt="Logo that looks like Provo City logo" class="logo"/>
-		
 		<br>
-
 		<div class="topnav">
 			<ul>
 				<li><a href="">LOGO311</a></li>

@@ -16,4 +16,5 @@ use App\Http\Controllers\ListItemController;
 */
 Route::get('/', [ListItemController::class, 'index']);
 Route::post('/', [ListItemController::class, 'create']);
+Route::delete('markComplete/{id}', [ListItemController::class, 'markComplete'])->name('markComplete');
 Route::get('/logo', [LogoController::class, 'index']);

@@ -1,15 +1,40 @@
-body{
+body {
 	margin-left: 175px;
-	margin-right: 175px;
-				
+	margin-right: 175px;			
 }
 
-.logo{
-	max-width: 250px;
-}
-
-body div{
+body div {
 	margin-top: 50px;
+}
+
+ul {
+	margin: 30 30 0 30;
+	display: inline-flex;
+	list-style: none;
+	font-size: 15px;
+}
+
+ul li {
+	padding: 5px 15px;
+} 
+
+li a {
+	padding: 10 10 10 10;
+}
+
+li a:hover {
+	background-color: limegreen;
+	color: white;
+}
+
+a {
+	padding-right: 30px;
+	padding-left: 30px;
+	text-decoration: none;
+}
+
+.logo {
+	max-width: 250px;
 }
 
 .topnav {
@@ -17,38 +42,10 @@ body div{
 	margin-top: 0px;
 	text-align: center;
 	display: inline-flex;
-	}
-
-ul{
-	margin: 30 30 0 30;
-	display: inline-flex;
-	list-style: none;
-	font-size: 15px;
-
 }
 
-ul li{
-	padding: 5px 15px;
-}
-
-li a{
-	padding: 10 10 10 10;
-}
-
-li a:hover{
-	background-color: limegreen;
-	color: white;
-}
-
-#centerpic{
+#centerpic {
 	margin-top: 0px;
-}
-
-a {
-	padding-right: 30px;
-	padding-left: 30px;
-	text-decoration: none;
-
 }
 
 .searchbar {
